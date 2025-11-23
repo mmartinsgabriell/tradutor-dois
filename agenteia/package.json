@@ -1,0 +1,16 @@
+{
+  "name": "ia-cpc-deepseek",
+  "version": "1.0.0",
+  "description": "Agente CPC — Chat estilo ChatGPT + conversor CPC <-> Português (modo controlado) + DeepSeek (grátis)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2"
+  }
+}

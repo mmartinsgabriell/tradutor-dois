@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Agente CPC — DeepSeek</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="frame">
+    <aside class="sidebar">
+      <h2>Agente CPC</h2>
+      <p class="muted">Fórmulas ⇄ Português (modo controlado) — símbolos: ¬ ∧ ∨ → ↔</p>
+      <hr/>
+      <div class="examples">
+        <strong>Exemplos:</strong>
+        <ul>
+          <li>(p ∧ q) → ¬r</li>
+          <li>Se p e q forem verdadeiros, então r.</li>
+          <li>p ∨ ¬q</li>
+        </ul>
+      </div>
+      <div class="foot muted">Negações com "não" no modo controlado.</div>
+    </aside>
+
+    <main class="chat-area">
+      <div id="chat" class="chat"></div>
+
+      <form id="form" class="composer">
+        <input id="input" placeholder="Envie uma fórmula ou frase controlada (ex.: 'Se p e q forem verdadeiros, então r.')" autocomplete="off"/>
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
